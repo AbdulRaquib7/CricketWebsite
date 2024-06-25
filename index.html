@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GoCricket</title>
+  <!-- google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,400;0,700;1,300&family=Anton&family=Bangers&family=Magra&family=Montserrat:ital,wght@0,900;1,900&family=Orbitron:wght@400;700&family=Oxanium&family=Roboto:wght@300;400&family=Squada+One&family=Teko&family=Ubuntu&display=swap" rel="stylesheet">
+
+  <link rel="icon" href="favicon.ico">
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- <link rel="stylesheet" href="C:\Web development\bootstrap-5.2.1-dist\css\bootstrap.min.css"> -->
+  <link rel="stylesheet" href="styles.css">
+  <!-- JavaScript Bundle with Popper -->
+
+  <!-- fontawesome -->
+  <script src="https://kit.fontawesome.com/5f248256a1.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <section id="title">
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-lg bg-black">
+        <a class="navbar-brand" href=""><img class="logo" src="logo.png" alt="GocricketLogo"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse navlinks" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="">Matches</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="">Top Stories</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="">FeedBack</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+
+      <div class="row">
+        <div class="col-lg-6">
+          <h1 class="heading">Get updated on your favorite cricketing topics on the GO.</h1>
+          <button type="button" class="btn btn-light btn-lg downlaod-button"><i class="fa-brands fa-apple"></i> Download</button>
+          <button type="button" class="btn btn-outline-light btn-lg downlaod-button"><i class="fa-brands fa-google-play"></i> Download</button>
+        </div>
+        <div class="col-lg-6">
+          <img class="virat" src="virat.png" alt="virat kolhi image">
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- scores -->
+
+  <section class="scores">
+    <div class="row">
+      <div class="col-xs-12">
+        <h1 class="score-heading">MATCHES</h1>
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" data-interval="5000">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="matches">
+                <i class="fa-regular fa-bell"></i>
+                <h4 class="match-heading">3rd T20I&#x2022;Australia tour of India,2022</h4>
+                <img class="flag" src="flags/india.png" alt="India flag">
+                <h2 class="team-name">India</h2>
+                <h2 class="team-score"></h2>
+                <img class="flag-2" src="flags/australia.png" alt="Australia flag">
+                <h2 class="team-name2">Australia</h2>
+                <h2 class="team-score2"></h2>
+                <h3 class="result">Today&#x2022;7:00PM</h3>
+
+
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="matches">
+
+                <h4 class="match-heading">3rd T20I&#x2022;England tour of Pakistan,2022</h4>
+                <img class="flag" src="flags/england.png" alt="England flag">
+                <h2 class="team-name">England</h2>
+                <h2 class="team-score">221-3 (20)</h2>
+                <img class="flag-2" src="flags/pakistan.png" alt="Pakistan flag">
+                <h2 class="team-name2">Pakistan</h2>
+                <h2 class="team-score2">158-8 (20)</h2>
+                <h3 class="result">England won by 63 runs</h3>
+
+
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="matches">
+
+                <h4 class="match-heading">Final&#x2022;ICC World Cup 2011</h4>
+                <img class="flag" src="flags/sri-lanka.png" alt="SriLanka flag">
+                <h2 class="team-name" >Sri Lanka</h2>
+                <h2 class="team-score" >274-6 (50.0)</h2>
+                <img class="flag-2" src="flags/india.png" alt="India flag">
+                <h2 class="team-name2">India</h2>
+                <h2 class="team-score2">277-4 (48.2)</h2>
+                <h3 class="result">India won by 6 wickets</h3>
+
+
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="matches">
+
+                <h4 class="match-heading">Match 24&#x2022;Indian Premier League,2018</h4>
+                <img class="ipl-flag" src="flags/rcb.png" alt="RCB logo">
+                <h2 class="team-name">RCB</h2>
+                <h2 class="team-score">205-8 (20)</h2>
+                <img class="ipl_flag2" src="flags/CSK.png" alt="CSK flag">
+                <h2 class="team-name2">CSK</h2>
+                <h2 class="team-score2">207-5 (19.4)</h2>
+                <h3 class="result">Chennai Super Kings won by 5 wickets</h3>
+
+
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+
+      </div>
+    </div>
+
+
+
+
+  </section>
+
+
+  <!-- top stories -->
+
+  <div class="stories">
+    <div class="news">
+      <h1 class="stories-heading">TOP STORIES</h1>
+      <img class="stories-image" src="vk100.jpg" alt="virat century">
+      <h2 class="news-heading">Kohli equals Ponting after wait of 1019 days</h2>
+      <p class="para">
+        <span class="para-highlight">71 centuries for Kohli </span>in all International cricket across formats - 27 in Tests, 43 in ODIs and this being his maiden three-figure score in T20Is. Only Sachin Tendulkar with hundred centuries in 782 innings has scored more in all International cricket than Kohli's 71. Kohli is tied on the second spot with Ricky Ponting who took 668 innings to score as many.
+      </p>
+    </div>
+
+    <div class="news">
+      <img class="stories-image" src="goswami.jpg" alt="goswami picture">
+      <h2 class="news-heading">India send Goswami off with a historic 3-0 series triumph</h2>
+      <p class="para">
+        The winning farewell that India were hoping to give Jhulan Goswami was under threat when the visitors were bowled out for 169 <span class="para-highlight">despite half-centuries from Smriti Mandhana and Deepti Sharma. </span>But the bowlers, led by Renuka Thakur (4-29), powered India's comeback as they clinched a 16-run victory in a low-scoring thriller at the Lord's on Saturday (September 24) to seal a 3-0 series victory.
+      </p>
+    </div>
+
+    <div class="news">
+      <img class="stories-image" src="duleep.jpg" alt="duleep throphy">
+      <h2 class="news-heading">Clinical West Zone clinch Duleep Trophy</h2>
+      <p class="para">
+        West Zone, on expected lines, completed a facile win <span class="para-highlight">over South Zone on the final day in Coimbatore to clinch the Duleep Trophy. </span>Having put themselves on the driver's seat by stumps on the fourth day, West Zone completed the formalities by picking up the final four wickets on the fifth morning.
+      </p>
+    </div>
+
+    <div class="news">
+      <img class="stories-image" src="bcci.jpg" alt="BCCI HQ">
+      <h2 class="news-heading">BCCI announces schedule for elections</h2>
+      <p class="para">
+        The Board of Control for Cricket in India's (BCCI) election season has officially set in, with the electoral officer announcing the schedule. As per a seven-page notification distributed among the state associations on Saturday (September 24), the deadline for the state units to nominate their members was Saturday (September 24) and the nominations are to be filed on October 11 and 12. The elections, of course,<span class="para-highlight">will be held in Mumbai on October 18</span>, the day of the BCCI Annual General Meeting (AGM).
+      </p>
+    </div>
+
+  <div class="button-box">
+    <h2 class = "feedback">We'd love your feedback!</h2>
+    <button class="button" role="button" onclick="window.location.href = 'http://localhost/feedbck/';">FeedBack</button>
+  </div>
+
+
+
+  <footer>
+          <div class="footer-content">
+              <img class="logo1" src="logo1.png" alt="GocricketLogo">
+              <p>GoCricket is an Responsive Cricket app for individuals who are keen to Cricket!.Get instant updates on any cricketing drama on the GO.Install our app on Android and IOS for free.</p>
+              <ul class="socials">
+                  <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                  <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                  <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                  <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+                  <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
+              </ul>
+          </div>
+          <div class="footer-bottom">
+              <p>copyright &copy;2021 <a href="#">GoCricket</a>  </p>
+                      <div class="footer-menu">
+                        <ul class="f-menu">
+                          <li><a href="">Home</a></li>
+                          <li><a href="">About</a></li>
+                          <li><a href="">Contact</a></li>
+                          <li><a href="">QnA</a></li>
+                        </ul>
+                      </div>
+          </div>
+
+      </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+  <script src="index.js"></script>
+</body>
+
+
+
+</html> 
